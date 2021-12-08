@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: chocolate;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+}
+
+header p{
+    font-size: 50px;
+}
+
+span{
+    background-color: bisque;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+}
+
+span img {
+    border-radius: 10px;
+    margin: 20px;
+}
+
+footer{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer p{
+    font-size: 15px;
+}
+
