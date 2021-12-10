@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>.: Sexo e Idade :.</title>
+</head>
+<body>
+    <header>
+        <p>Verificação de Sexo e Idade</p>
+    </header>
+    <section>
+        <p>Ano de Nascimento
+            <input type="number" id="anonasc"><label for="anonasc"></label>
+        </p>
+        <p>Sexo:
+            <input type="radio" name="radsex" id="man" checked><label for="man">Homem</label>
+            <input type="radio" name="radsex" id="woman"><label for="woman">Mulher</label>
+        </p>
+
+        <input type="button" value="Verificar" id="verificar" onclick="verificar()">
+        <div class="restext"  id="restext">Resultado texto</div>
+        
+    </section>
+    <footer>
+        <p>Copyright &copy; By Marcelo Silva</p>
+        <p>Aprendizado com Curso em Vídeo</p>
+</footer>                       
+<script src="script.js"></script>
+</body>
+</html>
